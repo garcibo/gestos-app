@@ -1,0 +1,18 @@
+
+
+<div class="card" style="width: 18rem;left:20px;top: 0px;">
+    <canvas class="renderer" #renderer width="640" height="480"></canvas>
+<video class="video" #video></video>
+    <div class="card-header">
+        Comprar pase
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">CANTIDAD = {{cantidad}}</h5>
+      
+      <a href="#" (click)="add()" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Incrementar cantidad</a>
+      <a href="#" (click)="delete()"class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Decrementar cantidad</a>
+      
+
+    </div>
+  </div>
+

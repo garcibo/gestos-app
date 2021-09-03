@@ -1,0 +1,21 @@
+.video {
+  margin-top: 60px;
+  width: 320px;
+  height: 240px;
+  position: fixed;
+  top: 0;
+  left: 72.5%;
+  
+}
+
+.renderer {
+  margin-top: 60px;
+
+  width: 320px;
+  height: 240px;
+  position: fixed;
+  background-color:transparent;
+  top: 0;
+  left: 72.5%;
+  z-index: 10;
+}
